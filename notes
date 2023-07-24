@@ -1,0 +1,29 @@
+JWT
+----
+
+Jwt can be used for authentication and authorization purposes.
+
+JWT authentication commonly involves using an access token and a refresh token.
+Header, Payload , signature
+
+Payload : contains information about the user or additional data.
+
+Access Token :
+-------------
+1. An access token is a short-lived token that is generated upon successfull authentication.
+
+2. shorter expiration
+
+3. verify the user's identity and access permissions
+
+
+Refresh Token
+______________
+
+1. Long lived token that is issued alongside the access token.
+
+2. it obtain access token when current one expires.
+
+3. Longer expiration
+
+4. stored in client side
