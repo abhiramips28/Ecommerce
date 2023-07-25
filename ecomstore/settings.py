@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'ecomstore.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ecom',
+        'NAME': 'ecom_api',
         'USER': 'postgres',
         'PASSWORD': 'anvitha05',
         'HOST': 'localhost',

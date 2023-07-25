@@ -28,6 +28,7 @@ class ListCloths(generics.ListCreateAPIView):
         return Response({'object_list' : queryset})
 
 class DetailsView(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes = [permissions.IsAuthenticated]
     serializer_class = ClothSerializer
     queryset = Cloths.objects.all()
 
